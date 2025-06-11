@@ -1,4 +1,4 @@
-semantic-router
+semantic-router==0.0.72
 python-dotenv
 openai
 tqdm
