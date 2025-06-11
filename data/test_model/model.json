@@ -1,0 +1,447 @@
+{
+    "encoder_type": "openai",
+    "encoder_name": "text-embedding-3-small",
+    "routes": [
+        {
+            "name": "GAMIFICATION.STATUS",
+            "utterances": [
+                "How many page views do I have?",
+                "How many page views do I current have?"
+            ],
+            "description": null,
+            "function_schemas": null,
+            "llm": null,
+            "score_threshold": 0.3,
+            "metadata": {}
+        },
+        {
+            "name": "GAMIFICATION",
+            "utterances": [
+                "Awesome, can you rig it for me so i win this week or nah",
+                "How many gems can I earn a day?",
+                "How is it even possible for people to be ahead of me",
+                "What do I get for earning epic",
+                "What are the levels",
+                "How do I get diamonds",
+                "Do I have to interact with the chat box every week to get extra credit?",
+                "Can i give you a reflection for gems or no",
+                "how to get gems",
+                "How do I get the last two assignment timeliness diamonds? There are no more asssignments this week but I have 4/6",
+                "Leaderboard",
+                "How do you get gems",
+                "Ok can i get my gem now"
+            ],
+            "description": null,
+            "function_schemas": null,
+            "llm": null,
+            "score_threshold": 0.3,
+            "metadata": {}
+        },
+        {
+            "name": "GENERAL",
+            "utterances": [
+                "What is entrepreneurship?",
+                "How do businesses use APIs?",
+                "What is Network Effects?",
+                "Define crm",
+                "Who is the instructor ?",
+                "What is information systems?",
+                "How is a for loop used for dictionaries in python",
+                "what is the definition of software?",
+                "How do you write a code to select all employee names form the employee table",
+                "I need to know what abbreviates stand for"
+            ],
+            "description": null,
+            "function_schemas": null,
+            "llm": null,
+            "score_threshold": 0.3,
+            "metadata": {}
+        },
+        {
+            "name": "GRADE.ASSIGNMENT",
+            "utterances": [
+                "What did I get on the last test",
+                "What grade did I get on the last quiz?",
+                "What did I get for my latest test"
+            ],
+            "description": null,
+            "function_schemas": null,
+            "llm": null,
+            "score_threshold": 0.3,
+            "metadata": {}
+        },
+        {
+            "name": "GRADE.COURSE",
+            "utterances": [
+                "What is my current grade",
+                "What is my current grade in the class",
+                "score in the class?",
+                "What is my grade",
+                "What is my garde",
+                "grade in class?",
+                "What did I get for my grade"
+            ],
+            "description": null,
+            "function_schemas": null,
+            "llm": null,
+            "score_threshold": 0.3,
+            "metadata": {}
+        },
+        {
+            "name": "GRADE.RULES",
+            "utterances": [
+                "What is the grade breakdown for this course",
+                "What percents count for each grade?",
+                "What letter grade is a 94.87?",
+                "Grading weight for tests",
+                "What is the grading breakdown"
+            ],
+            "description": null,
+            "function_schemas": null,
+            "llm": null,
+            "score_threshold": 0.3,
+            "metadata": {}
+        },
+        {
+            "name": "GRADE.FEEDBACK",
+            "utterances": [
+                "Oh  is there going to be a group rating/feedback"
+            ],
+            "description": null,
+            "function_schemas": null,
+            "llm": null,
+            "score_threshold": 0.3,
+            "metadata": {}
+        },
+        {
+            "name": "GRADE.TIMING",
+            "utterances": [
+                "when are assignments going to be released",
+                "When will exam 3 scores be released?"
+            ],
+            "description": null,
+            "function_schemas": null,
+            "llm": null,
+            "score_threshold": 0.3,
+            "metadata": {}
+        },
+        {
+            "name": "GRADE",
+            "utterances": [
+                "What was my grade on exam 1?",
+                "What did I get on test g",
+                "I believe it does; what percentage of my grade is based on the midterm",
+                "What was my grade on the final exam today",
+                "Score for guest lecture quiz",
+                "What was my score on today's test",
+                "What score did I get on the final exam?",
+                "Final exam score",
+                "What did I get on exam 3",
+                "What did I get on the final exam",
+                "What do I have to get on the last tests to achieve an a letter grade",
+                "What is my grade on final exam 2024",
+                "What is my grade on 2024 final exam",
+                "How am I doing in the class?",
+                "What's the grade on my last test",
+                "What did i get on the final exam",
+                "what did i get on exam 2",
+                "What score did I get on exam #3",
+                "What was the grade on my last quiz",
+                "What score do I need on the next exam and final to maintain a B",
+                "How am I doing in this class?",
+                "What did I get on the exam yesterday ?",
+                "average grade is class",
+                "What was the average score for exam 1?"
+            ],
+            "description": null,
+            "function_schemas": null,
+            "llm": null,
+            "score_threshold": 0.3,
+            "metadata": {}
+        },
+        {
+            "name": "HOWTO.GET.GRADE",
+            "utterances": [
+                "What score do I need on my next test to get an A",
+                "How can I earn an 'A' in this class?",
+                "Why's the recommendation for hours studied in order to get an A in this class?",
+                "How can I improve my grade",
+                "What do i need to get an A?"
+            ],
+            "description": null,
+            "function_schemas": null,
+            "llm": null,
+            "score_threshold": 0.3,
+            "metadata": {}
+        },
+        {
+            "name": "HOWTO.USE.APP",
+            "utterances": [
+                "How do I set a learning goal in this app",
+                "How do I do the onboarding part of this assignment"
+            ],
+            "description": null,
+            "function_schemas": null,
+            "llm": null,
+            "score_threshold": 0.3,
+            "metadata": {}
+        },
+        {
+            "name": "HOWTO.STUDY",
+            "utterances": [
+                "How do you study for exams if you haven't done any readings so far",
+                "How should I study for race power and justice",
+                "How should I review?"
+            ],
+            "description": null,
+            "function_schemas": null,
+            "llm": null,
+            "score_threshold": 0.3,
+            "metadata": {}
+        },
+        {
+            "name": "HOWTO.DO.ASSIGNMENT",
+            "utterances": [
+                "How do I do the assignment"
+            ],
+            "description": null,
+            "function_schemas": null,
+            "llm": null,
+            "score_threshold": 0.3,
+            "metadata": {}
+        },
+        {
+            "name": "INFO.ASSIGNMENT",
+            "utterances": [
+                "What is the duration of the final exam?",
+                "Is the final comprehensive",
+                "What is the next group assignment about?",
+                "how many exam 3 questions haven't been graded yet",
+                "Where is the canvas page grade",
+                "List of topics for the upcoming test",
+                "Where is the post survey link",
+                "Do I turn in group excercise 6",
+                "What is my next assignment",
+                "What is exam 3 on topic wise",
+                "Is the final exam cumulative?",
+                "what is test f about",
+                "What's the next assignment?",
+                "What's my next assignment"
+            ],
+            "description": null,
+            "function_schemas": null,
+            "llm": null,
+            "score_threshold": 0.3,
+            "metadata": {}
+        },
+        {
+            "name": "SCHEDULE.ASSIGNMENT",
+            "utterances": [
+                "When is my next assignment due",
+                "What are my assignments due",
+                "When is the Next mini quiz?",
+                "when is group assignment 6 due",
+                "When is our test",
+                "When is the next midterm",
+                "When is the next quiz?",
+                "When are my exams?",
+                "When is the exam",
+                "What time is the group assignment 4 due?",
+                "When is exam one?"
+            ],
+            "description": null,
+            "function_schemas": null,
+            "llm": null,
+            "score_threshold": 0.3,
+            "metadata": {}
+        },
+        {
+            "name": "SCHEDULE.WEEK",
+            "utterances": [
+                "What do I have due next week",
+                "What do I have due this week",
+                "What is due this week"
+            ],
+            "description": null,
+            "function_schemas": null,
+            "llm": null,
+            "score_threshold": 0.3,
+            "metadata": {}
+        },
+        {
+            "name": "SCHEDULE.NEXT.ASSIGNMENT",
+            "utterances": [
+                "When is the next test",
+                "When is the assignment due",
+                "What is due next",
+                "When's my next assignment due",
+                "When is next assignment",
+                "When's the next assignment due ?",
+                "When is my next assignment?"
+            ],
+            "description": null,
+            "function_schemas": null,
+            "llm": null,
+            "score_threshold": 0.3,
+            "metadata": {}
+        },
+        {
+            "name": "SCHEDULE",
+            "utterances": [
+                "What do I have to do this week",
+                "When is the midterm for the course?",
+                "What is the next assignment",
+                "When is our final exam?",
+                "When is the next exam?",
+                "When is this class complete",
+                "When is the ecam",
+                "When is our final exam?",
+                "when is the next group assignment",
+                "What do I have due this week",
+                "When is my next test?",
+                "When is the first midterm for this class?",
+                "What is the next due assignment?",
+                "Do I have any assignments to do ?",
+                "What's due today",
+                "what assignments are due this week",
+                "Quiz today right?",
+                "When do we have our next exam",
+                "what is our next assignment?",
+                "Are you sure that the IDSc test 5&6 is due today?",
+                "What are my assignments?",
+                "What is the next assignment?",
+                "What's due today",
+                "Just one more test and group assignment correct?"
+            ],
+            "description": null,
+            "function_schemas": null,
+            "llm": null,
+            "score_threshold": 0.3,
+            "metadata": {}
+        },
+        {
+            "name": "SMALLTALK",
+            "utterances": [
+                "Hi",
+                "Hi",
+                "OMG",
+                "Hi",
+                "Hi",
+                "Hello",
+                "Hi",
+                "How are you",
+                "How are you?",
+                "Hi smart pal",
+                "thank you",
+                "Hello",
+                "Hello",
+                "hi",
+                "Thank you",
+                "Ugh",
+                "Hello",
+                "Thanks gopher",
+                "Wounds good",
+                "Thank you",
+                "what's my name",
+                "Hi",
+                "Thanks",
+                "?",
+                "hi",
+                "hi",
+                "Ok",
+                "Thank you",
+                "hi",
+                "\ud83d\udc4d\ud83c\udffc"
+            ],
+            "description": null,
+            "function_schemas": null,
+            "llm": null,
+            "score_threshold": 0.3,
+            "metadata": {}
+        },
+        {
+            "name": "SUBMISSION",
+            "utterances": [
+                "Do I have any missing assignments"
+            ],
+            "description": null,
+            "function_schemas": null,
+            "llm": null,
+            "score_threshold": 0.3,
+            "metadata": {}
+        },
+        {
+            "name": "SYLLABUS",
+            "utterances": [
+                "How many credits is this course?",
+                "Who is the teacher",
+                "What does the syllabus say about tests",
+                "What is the name of the course?",
+                "Who teaches the course?",
+                "When is class",
+                "what are the attendance requirements for this course",
+                "When is office hours",
+                "What is the professors name for this course",
+                "What is idsc?",
+                "When is the office hour",
+                "What time is Song's office hours?",
+                "When are the office hours?",
+                "What is the syllabus for this course?"
+            ],
+            "description": null,
+            "function_schemas": null,
+            "llm": null,
+            "score_threshold": 0.3,
+            "metadata": {}
+        },
+        {
+            "name": "SYSTEM.CHATBOT",
+            "utterances": [
+                "What questions can you answer?"
+            ],
+            "description": null,
+            "function_schemas": null,
+            "llm": null,
+            "score_threshold": 0.3,
+            "metadata": {}
+        },
+        {
+            "name": "SYSTEM",
+            "utterances": [
+                "Can you not do that for me",
+                "How much extra credit do I get from this app?",
+                "Working yet?",
+                "What is the smart pal research project?",
+                "What can you do?",
+                "Why is there only one course on this app"
+            ],
+            "description": null,
+            "function_schemas": null,
+            "llm": null,
+            "score_threshold": 0.3,
+            "metadata": {}
+        },
+        {
+            "name": "UNKNOWN",
+            "utterances": [
+                "tell me a joke"
+            ],
+            "description": null,
+            "function_schemas": null,
+            "llm": null,
+            "score_threshold": 0.3,
+            "metadata": {}
+        },
+        {
+            "name": "ISSUE.GAMIFICATION",
+            "utterances": [
+                "I did your reflection but haven't received a gem"
+            ],
+            "description": null,
+            "function_schemas": null,
+            "llm": null,
+            "score_threshold": 0.3,
+            "metadata": {}
+        }
+    ]
+}

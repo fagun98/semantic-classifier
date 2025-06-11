@@ -1,0 +1,814 @@
+{
+	"table": "dynamo_chats",
+	"rows":
+	[
+		{
+			"true_intent": "GAMIFICATION.STATUS",
+			"message": "How many page views do I have?"
+		},
+		{
+			"true_intent": "GAMIFICATION.STATUS",
+			"message": "How many page views do I current have?"
+		},
+		{
+			"true_intent": "GAMIFICATION",
+			"message": "Awesome, can you rig it for me so i win this week or nah"
+		},
+		{
+			"true_intent": "GAMIFICATION",
+			"message": "How many gems can I earn a day?"
+		},
+		{
+			"true_intent": "GAMIFICATION",
+			"message": "How is it even possible for people to be ahead of me"
+		},
+		{
+			"true_intent": "GAMIFICATION",
+			"message": "What do I get for earning epic"
+		},
+		{
+			"true_intent": "GAMIFICATION",
+			"message": "What are the levels"
+		},
+		{
+			"true_intent": "GAMIFICATION",
+			"message": "How do I get diamonds"
+		},
+		{
+			"true_intent": "GAMIFICATION",
+			"message": "Do I have to interact with the chat box every week to get extra credit?"
+		},
+		{
+			"true_intent": "GAMIFICATION",
+			"message": "Can i give you a reflection for gems or no"
+		},
+		{
+			"true_intent": "GAMIFICATION",
+			"message": "how to get gems"
+		},
+		{
+			"true_intent": "GAMIFICATION",
+			"message": "How do I get the last two assignment timeliness diamonds? There are no more asssignments this week but I have 4/6"
+		},
+		{
+			"true_intent": "GAMIFICATION",
+			"message": "Leaderboard"
+		},
+		{
+			"true_intent": "GAMIFICATION",
+			"message": "How do you get gems"
+		},
+		{
+			"true_intent": "GAMIFICATION",
+			"message": "Ok can i get my gem now"
+		},
+		{
+			"true_intent": "GENERAL",
+			"message": "What is entrepreneurship?"
+		},
+		{
+			"true_intent": "GENERAL",
+			"message": "How do businesses use APIs?"
+		},
+		{
+			"true_intent": "GENERAL",
+			"message": "What is Network Effects?"
+		},
+		{
+			"true_intent": "GENERAL",
+			"message": "Define crm"
+		},
+		{
+			"true_intent": "GENERAL",
+			"message": "Who is the instructor ?"
+		},
+		{
+			"true_intent": "GENERAL",
+			"message": "What is information systems?"
+		},
+		{
+			"true_intent": "GENERAL",
+			"message": "How is a for loop used for dictionaries in python"
+		},
+		{
+			"true_intent": "GENERAL",
+			"message": "what is the definition of software?"
+		},
+		{
+			"true_intent": "GENERAL",
+			"message": "How do you write a code to select all employee names form the employee table"
+		},
+		{
+			"true_intent": "GENERAL",
+			"message": "I need to know what abbreviates stand for"
+		},
+		{
+			"true_intent": "GRADE.ASSIGNMENT",
+			"message": "What did I get on the last test"
+		},
+		{
+			"true_intent": "GRADE.ASSIGNMENT",
+			"message": "What grade did I get on the last quiz?"
+		},
+		{
+			"true_intent": "GRADE.ASSIGNMENT",
+			"message": "What did I get for my latest test"
+		},
+		{
+			"true_intent": "GRADE.COURSE",
+			"message": "What is my current grade"
+		},
+		{
+			"true_intent": "GRADE.COURSE",
+			"message": "What is my current grade in the class"
+		},
+		{
+			"true_intent": "GRADE.COURSE",
+			"message": "score in the class?"
+		},
+		{
+			"true_intent": "GRADE.COURSE",
+			"message": "What is my grade"
+		},
+		{
+			"true_intent": "GRADE.COURSE",
+			"message": "What is my garde"
+		},
+		{
+			"true_intent": "GRADE.COURSE",
+			"message": "grade in class?"
+		},
+		{
+			"true_intent": "GRADE.COURSE",
+			"message": "What did I get for my grade"
+		},
+		{
+			"true_intent": "GRADE.RULES",
+			"message": "What is the grade breakdown for this course"
+		},
+		{
+			"true_intent": "GRADE.RULES",
+			"message": "What percents count for each grade?"
+		},
+		{
+			"true_intent": "GRADE.RULES",
+			"message": "What letter grade is a 94.87?"
+		},
+		{
+			"true_intent": "GRADE.RULES",
+			"message": "Grading weight for tests"
+		},
+		{
+			"true_intent": "GRADE.RULES",
+			"message": "What is the grading breakdown"
+		},
+		{
+			"true_intent": "GRADE.FEEDBACK",
+			"message": "Oh  is there going to be a group rating/feedback"
+		},
+		{
+			"true_intent": "GRADE.TIMING",
+			"message": "when are assignments going to be released"
+		},
+		{
+			"true_intent": "GRADE.TIMING",
+			"message": "When will exam 3 scores be released?"
+		},
+		{
+			"true_intent": "GRADE",
+			"message": "What was my grade on exam 1?"
+		},
+		{
+			"true_intent": "GRADE",
+			"message": "What did I get on test g"
+		},
+		{
+			"true_intent": "GRADE",
+			"message": "I believe it does; what percentage of my grade is based on the midterm"
+		},
+		{
+			"true_intent": "GRADE",
+			"message": "What was my grade on the final exam today"
+		},
+		{
+			"true_intent": "GRADE",
+			"message": "Score for guest lecture quiz"
+		},
+		{
+			"true_intent": "GRADE",
+			"message": "What was my score on today’s test"
+		},
+		{
+			"true_intent": "GRADE",
+			"message": "What score did I get on the final exam?"
+		},
+		{
+			"true_intent": "GRADE",
+			"message": "Final exam score"
+		},
+		{
+			"true_intent": "GRADE",
+			"message": "What did I get on exam 3"
+		},
+		{
+			"true_intent": "GRADE",
+			"message": "What did I get on the final exam"
+		},
+		{
+			"true_intent": "GRADE",
+			"message": "What do I have to get on the last tests to achieve an a letter grade"
+		},
+		{
+			"true_intent": "GRADE",
+			"message": "What is my grade on final exam 2024"
+		},
+		{
+			"true_intent": "GRADE",
+			"message": "What is my grade on 2024 final exam"
+		},
+		{
+			"true_intent": "GRADE",
+			"message": "How am I doing in the class?"
+		},
+		{
+			"true_intent": "GRADE",
+			"message": "What’s the grade on my last test"
+		},
+		{
+			"true_intent": "GRADE",
+			"message": "What did i get on the final exam"
+		},
+		{
+			"true_intent": "GRADE",
+			"message": "what did i get on exam 2"
+		},
+		{
+			"true_intent": "GRADE",
+			"message": "What score did I get on exam #3"
+		},
+		{
+			"true_intent": "GRADE",
+			"message": "What was the grade on my last quiz"
+		},
+		{
+			"true_intent": "GRADE",
+			"message": "What score do I need on the next exam and final to maintain a B"
+		},
+		{
+			"true_intent": "GRADE",
+			"message": "How am I doing in this class?"
+		},
+		{
+			"true_intent": "GRADE",
+			"message": "What did I get on the exam yesterday ?"
+		},
+		{
+			"true_intent": "GRADE",
+			"message": "average grade is class"
+		},
+		{
+			"true_intent": "GRADE",
+			"message": "What was the average score for exam 1?"
+		},
+		{
+			"true_intent": "HOWTO.GET.GRADE",
+			"message": "What score do I need on my next test to get an A"
+		},
+		{
+			"true_intent": "HOWTO.GET.GRADE",
+			"message": "How can I earn an “A” in this class?"
+		},
+		{
+			"true_intent": "HOWTO.GET.GRADE",
+			"message": "Why’s the recommendation for hours studied in order to get an A in this class?"
+		},
+		{
+			"true_intent": "HOWTO.GET.GRADE",
+			"message": "How can I improve my grade"
+		},
+		{
+			"true_intent": "HOWTO.GET.GRADE",
+			"message": "What do i need to get an A?"
+		},
+		{
+			"true_intent": "HOWTO.USE.APP",
+			"message": "How do I set a learning goal in this app"
+		},
+		{
+			"true_intent": "HOWTO.USE.APP",
+			"message": "How do I do the onboarding part of this assignment"
+		},
+		{
+			"true_intent": "HOWTO.STUDY",
+			"message": "How do you study for exams if you haven’t done any readings so far"
+		},
+		{
+			"true_intent": "HOWTO.STUDY",
+			"message": "How should I study for race power and justice"
+		},
+		{
+			"true_intent": "HOWTO.STUDY",
+			"message": "How should I review?"
+		},
+		{
+			"true_intent": "HOWTO.DO.ASSIGNMENT",
+			"message": "How do I do the assignment"
+		},
+		{
+			"true_intent": "INFO.ASSIGNMENT",
+			"message": "What is the duration of the final exam?"
+		},
+		{
+			"true_intent": "INFO.ASSIGNMENT",
+			"message": "Is the final comprehensive"
+		},
+		{
+			"true_intent": "INFO.ASSIGNMENT",
+			"message": "What is the next group assignment about?"
+		},
+		{
+			"true_intent": "INFO.ASSIGNMENT",
+			"message": "how many exam 3 questions haven’t been graded yet"
+		},
+		{
+			"true_intent": "INFO.ASSIGNMENT",
+			"message": "Where is the canvas page grade"
+		},
+		{
+			"true_intent": "INFO.ASSIGNMENT",
+			"message": "List of topics for the upcoming test"
+		},
+		{
+			"true_intent": "INFO.ASSIGNMENT",
+			"message": "Where is the post survey link"
+		},
+		{
+			"true_intent": "INFO.ASSIGNMENT",
+			"message": "Do I turn in group excercise 6"
+		},
+		{
+			"true_intent": "INFO.ASSIGNMENT",
+			"message": "What is my next assignment"
+		},
+		{
+			"true_intent": "INFO.ASSIGNMENT",
+			"message": "What is exam 3 on topic wise"
+		},
+		{
+			"true_intent": "INFO.ASSIGNMENT",
+			"message": "Is the final exam cumulative?"
+		},
+		{
+			"true_intent": "INFO.ASSIGNMENT",
+			"message": "what is test f about"
+		},
+		{
+			"true_intent": "REFLECTION",
+			"message": "It was good!"
+		},
+		{
+			"true_intent": "REFLECTION",
+			"message": "To reflect i think i prepared good for the exam"
+		},
+		{
+			"true_intent": "REFLECTION",
+			"message": "Interesting"
+		},
+		{
+			"true_intent": "REFLECTION",
+			"message": "It was interesting diving deeper into security issues"
+		},
+		{
+			"true_intent": "REFLECTION",
+			"message": "I just used my best knowledge to guess on the answers i did not know"
+		},
+		{
+			"true_intent": "SCHEDULE.ASSIGNMENT",
+			"message": "When is my next assignment due"
+		},
+		{
+			"true_intent": "SCHEDULE.ASSIGNMENT",
+			"message": "What are my assignments due"
+		},
+		{
+			"true_intent": "SCHEDULE.ASSIGNMENT",
+			"message": "When is the Next mini quiz?"
+		},
+		{
+			"true_intent": "SCHEDULE.ASSIGNMENT",
+			"message": "when is group assignment 6 due"
+		},
+		{
+			"true_intent": "SCHEDULE.ASSIGNMENT",
+			"message": "When is my final exam?"
+		},
+		{
+			"true_intent": "SCHEDULE.ASSIGNMENT",
+			"message": "When is our test"
+		},
+		{
+			"true_intent": "SCHEDULE.ASSIGNMENT",
+			"message": "When is the next midterm"
+		},
+		{
+			"true_intent": "SCHEDULE.ASSIGNMENT",
+			"message": "When is the final"
+		},
+		{
+			"true_intent": "SCHEDULE.ASSIGNMENT",
+			"message": "when is the final exam"
+		},
+		{
+			"true_intent": "SCHEDULE.ASSIGNMENT",
+			"message": "When is the next quiz?"
+		},
+		{
+			"true_intent": "SCHEDULE.ASSIGNMENT",
+			"message": "When are my exams?"
+		},
+		{
+			"true_intent": "SCHEDULE.ASSIGNMENT",
+			"message": "When is the exam"
+		},
+		{
+			"true_intent": "SCHEDULE.ASSIGNMENT",
+			"message": "What time is the group assignment 4 due?"
+		},
+		{
+			"true_intent": "SCHEDULE.ASSIGNMENT",
+			"message": "When is exam one?"
+		},
+		{
+			"true_intent": "SCHEDULE.ASSIGNMENT",
+			"message": "when is the final"
+		},
+		{
+			"true_intent": "SCHEDULE.WEEK",
+			"message": "What do I have due next week"
+		},
+		{
+			"true_intent": "SCHEDULE.WEEK",
+			"message": "What do I have due this week"
+		},
+		{
+			"true_intent": "SCHEDULE.WEEK",
+			"message": "What is due this week"
+		},
+		{
+			"true_intent": "SCHEDULE.NEXT.ASSIGNMENT",
+			"message": "When is the next test"
+		},
+		{
+			"true_intent": "SCHEDULE.NEXT.ASSIGNMENT",
+			"message": "When is next assignment"
+		},
+		{
+			"true_intent": "SCHEDULE.NEXT.ASSIGNMENT",
+			"message": "When is the assignment due"
+		},
+		{
+			"true_intent": "SCHEDULE.NEXT.ASSIGNMENT",
+			"message": "What is due next"
+		},
+		{
+			"true_intent": "SCHEDULE.NEXT.ASSIGNMENT",
+			"message": "When’s my next assignment due"
+		},
+		{
+			"true_intent": "SCHEDULE.NEXT.ASSIGNMENT",
+			"message": "When is next assignment"
+		},
+		{
+			"true_intent": "SCHEDULE.NEXT.ASSIGNMENT",
+			"message": "What’s the next assignment?"
+		},
+		{
+			"true_intent": "SCHEDULE.NEXT.ASSIGNMENT",
+			"message": "What's my next assignment"
+		},
+		{
+			"true_intent": "SCHEDULE.NEXT.ASSIGNMENT",
+			"message": "When’s the next assignment due ?"
+		},
+		{
+			"true_intent": "SCHEDULE.NEXT.ASSIGNMENT",
+			"message": "When is my next assignment"
+		},
+		{
+			"true_intent": "SCHEDULE.NEXT.ASSIGNMENT",
+			"message": "When is my next assignment?"
+		},
+		{
+			"true_intent": "SCHEDULE",
+			"message": "What do I have to do this week"
+		},
+		{
+			"true_intent": "SCHEDULE",
+			"message": "When is the midterm for the course?"
+		},
+		{
+			"true_intent": "SCHEDULE",
+			"message": "What is the next assignment"
+		},
+		{
+			"true_intent": "SCHEDULE",
+			"message": "When is our final exam?"
+		},
+		{
+			"true_intent": "SCHEDULE",
+			"message": "When is the next exam?"
+		},
+		{
+			"true_intent": "SCHEDULE",
+			"message": "When is this class complete"
+		},
+		{
+			"true_intent": "SCHEDULE",
+			"message": "When is the ecam"
+		},
+		{
+			"true_intent": "SCHEDULE",
+			"message": "When is our final exam?"
+		},
+		{
+			"true_intent": "SCHEDULE",
+			"message": "when is the next group assignment"
+		},
+		{
+			"true_intent": "SCHEDULE",
+			"message": "What do I have due this week"
+		},
+		{
+			"true_intent": "SCHEDULE",
+			"message": "When is my next test?"
+		},
+		{
+			"true_intent": "SCHEDULE",
+			"message": "When is the first midterm for this class?"
+		},
+		{
+			"true_intent": "SCHEDULE",
+			"message": "What is the next due assignment?"
+		},
+		{
+			"true_intent": "SCHEDULE",
+			"message": "Do I have any assignments to do ?"
+		},
+		{
+			"true_intent": "SCHEDULE",
+			"message": "What’s due today"
+		},
+		{
+			"true_intent": "SCHEDULE",
+			"message": "what assignments are due this week"
+		},
+		{
+			"true_intent": "SCHEDULE",
+			"message": "Quiz today right?"
+		},
+		{
+			"true_intent": "SCHEDULE",
+			"message": "When do we have our next exam"
+		},
+		{
+			"true_intent": "SCHEDULE",
+			"message": "what is our next assignment?"
+		},
+		{
+			"true_intent": "SCHEDULE",
+			"message": "Are you sure that the IDSc test 5&6 is due today?"
+		},
+		{
+			"true_intent": "SCHEDULE",
+			"message": "What are my assignments?"
+		},
+		{
+			"true_intent": "SCHEDULE",
+			"message": "What is the next assignment?"
+		},
+		{
+			"true_intent": "SCHEDULE",
+			"message": "What’s due today"
+		},
+		{
+			"true_intent": "SCHEDULE",
+			"message": "Just one more test and group assignment correct?"
+		},
+		{
+			"true_intent": "SMALLTALK",
+			"message": "Hi"
+		},
+		{
+			"true_intent": "SMALLTALK",
+			"message": "Hi"
+		},
+		{
+			"true_intent": "SMALLTALK",
+			"message": "OMG"
+		},
+		{
+			"true_intent": "SMALLTALK",
+			"message": "Hi"
+		},
+		{
+			"true_intent": "SMALLTALK",
+			"message": "Hi"
+		},
+		{
+			"true_intent": "SMALLTALK",
+			"message": "Hello"
+		},
+		{
+			"true_intent": "SMALLTALK",
+			"message": "Hi"
+		},
+		{
+			"true_intent": "SMALLTALK",
+			"message": "How are you"
+		},
+		{
+			"true_intent": "SMALLTALK",
+			"message": "How are you?"
+		},
+		{
+			"true_intent": "SMALLTALK",
+			"message": "Hi smart pal"
+		},
+		{
+			"true_intent": "SMALLTALK",
+			"message": "thank you"
+		},
+		{
+			"true_intent": "SMALLTALK",
+			"message": "Hello"
+		},
+		{
+			"true_intent": "SMALLTALK",
+			"message": "Hello"
+		},
+		{
+			"true_intent": "SMALLTALK",
+			"message": "hi"
+		},
+		{
+			"true_intent": "SMALLTALK",
+			"message": "Thank you"
+		},
+		{
+			"true_intent": "SMALLTALK",
+			"message": "Ugh"
+		},
+		{
+			"true_intent": "SMALLTALK",
+			"message": "Hello"
+		},
+		{
+			"true_intent": "SMALLTALK",
+			"message": "Thanks gopher"
+		},
+		{
+			"true_intent": "SMALLTALK",
+			"message": "Wounds good"
+		},
+		{
+			"true_intent": "SMALLTALK",
+			"message": "Thank you"
+		},
+		{
+			"true_intent": "SMALLTALK",
+			"message": "what's my name"
+		},
+		{
+			"true_intent": "SMALLTALK",
+			"message": "Hi"
+		},
+		{
+			"true_intent": "SMALLTALK",
+			"message": "Thanks"
+		},
+		{
+			"true_intent": "SMALLTALK",
+			"message": "?"
+		},
+		{
+			"true_intent": "SMALLTALK",
+			"message": "hi"
+		},
+		{
+			"true_intent": "SMALLTALK",
+			"message": "hi"
+		},
+		{
+			"true_intent": "SMALLTALK",
+			"message": "Ok"
+		},
+		{
+			"true_intent": "SMALLTALK",
+			"message": "Thank you"
+		},
+		{
+			"true_intent": "SMALLTALK",
+			"message": "hi"
+		},
+		{
+			"true_intent": "SMALLTALK",
+			"message": "👍🏼"
+		},
+		{
+			"true_intent": "SUBMISSION",
+			"message": "Do I have any missing assignments"
+		},
+		{
+			"true_intent": "SYLLABUS",
+			"message": "How many credits is this course?"
+		},
+		{
+			"true_intent": "SYLLABUS",
+			"message": "Who is the teacher"
+		},
+		{
+			"true_intent": "SYLLABUS",
+			"message": "What does the syllabus say about tests"
+		},
+		{
+			"true_intent": "SYLLABUS",
+			"message": "What is the name of the course?"
+		},
+		{
+			"true_intent": "SYLLABUS",
+			"message": "Who teaches the course?"
+		},
+		{
+			"true_intent": "SYLLABUS",
+			"message": "When is class"
+		},
+		{
+			"true_intent": "SYLLABUS",
+			"message": "what are the attendance requirements for this course"
+		},
+		{
+			"true_intent": "SYLLABUS",
+			"message": "When is office hours"
+		},
+		{
+			"true_intent": "SYLLABUS",
+			"message": "What is the professors name for this course"
+		},
+		{
+			"true_intent": "SYLLABUS",
+			"message": "What is idsc?"
+		},
+		{
+			"true_intent": "SYLLABUS",
+			"message": "When is the office hour"
+		},
+		{
+			"true_intent": "SYLLABUS",
+			"message": "What time is Song’s office hours?"
+		},
+		{
+			"true_intent": "SYLLABUS",
+			"message": "When are the office hours?"
+		},
+		{
+			"true_intent": "SYLLABUS",
+			"message": "What is the syllabus for this course?"
+		},
+		{
+			"true_intent": "SYSTEM.CHATBOT",
+			"message": "What questions can you answer?"
+		},
+		{
+			"true_intent": "SYSTEM",
+			"message": "Can you not do that for me"
+		},
+		{
+			"true_intent": "SYSTEM",
+			"message": "How much extra credit do I get from this app?"
+		},
+		{
+			"true_intent": "SYSTEM",
+			"message": "Working yet?"
+		},
+		{
+			"true_intent": "SYSTEM",
+			"message": "What is the smart pal research project?"
+		},
+		{
+			"true_intent": "SYSTEM",
+			"message": "What can you do?"
+		},
+		{
+			"true_intent": "SYSTEM",
+			"message": "Why is there only one course on this app"
+		},
+		{
+			"true_intent": "UNKNOWN",
+			"message": "tell me a joke"
+		},
+		{
+			"true_intent": "ISSUE.GAMIFICATION",
+			"message": "I did your reflection but haven’t received a gem"
+		}
+	]
+}

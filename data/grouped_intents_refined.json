@@ -1,0 +1,233 @@
+[
+    {
+        "name": "GAMIFICATION.STATUS",
+        "utterances": [
+            "How many page views do I have?",
+            "How many gems did i earn this week?",
+            "How many gems did I have?",
+            "How many page views do I current have?",
+            "what's my current level?",
+            "how many gems before my next level?",
+            "what's my ranking on the leaderboard?",
+            "who is on top of the leaderboard?"
+        ]
+    },
+    {
+        "name": "GAMIFICATION",
+        "utterances": [
+            "How many gems can I earn a day?",
+            "What do I get for earning epic",
+            "What are the levels",
+            "How do I get diamonds",
+            "Do I have to interact with the chat box every week to get extra credit?",
+            "Can i give you a reflection for gems or no",
+            "how to get gems",
+            "How do I get the last two assignment timeliness diamonds? There are no more asssignments this week but I have 4/6",
+            "How do you get gems"
+        ]
+    },
+    {
+        "name": "GRADE.COURSE",
+        "utterances": [
+            "What is my current grade",
+            "What is my current grade in the class",
+            "score in the class?",
+            "What is my grade",
+            "What is my garde",
+            "grade in class?",
+            "What did I get for my grade"
+        ]
+    },
+    {
+        "name": "GRADE",
+        "utterances": [
+            "What did I get on the last test",
+            "What grade did I get on the last quiz?",
+            "What did I get for my latest test",
+            "What was my grade on exam 1?",
+            "What did I get on test g",
+            "I believe it does; what percentage of my grade is based on the midterm",
+            "What was my grade on the final exam today",
+            "Score for guest lecture quiz",
+            "What was my score on today's test",
+            "What score did I get on the final exam?",
+            "Final exam score",
+            "What did I get on exam 3",
+            "What did I get on the final exam",
+            "What do I have to get on the last tests to achieve an a letter grade",
+            "What is my grade on final exam 2024",
+            "What is my grade on 2024 final exam",
+            "How am I doing in the class?",
+            "What's the grade on my last test",
+            "What did i get on the final exam",
+            "what did i get on exam 2",
+            "What score did I get on exam #3",
+            "What was the grade on my last quiz",
+            "What score do I need on the next exam and final to maintain a B",
+            "How am I doing in this class?",
+            "What did I get on the exam yesterday ?",
+            "average grade is class",
+            "What was the average score for exam 1?"            
+        ]
+    },
+    {
+        "name": "GRADE.RULES",
+        "utterances": [
+            "What is the grade breakdown for this course",
+            "What percents count for each grade?",
+            "What letter grade is a 94.87?",
+            "Grading weight for tests",
+            "What is the grading breakdown",
+            "when are assignments going to be released",
+            "When will exam 3 scores be released?"
+        ]
+    },
+    {
+        "name": "HOWTO.GET.GRADE",
+        "utterances": [
+            "What score do I need on my next test to get an A",
+            "How can I earn an 'A' in this class?",
+            "Why's the recommendation for hours studied in order to get an A in this class?",
+            "How can I improve my grade",
+            "What do i need to get an A?"
+        ]
+    },
+    {
+        "name": "HOWTO.USE.APP",
+        "utterances": [
+            "How do I set a learning goal in this app",
+            "How do I do the onboarding part of this assignment"
+        ]
+    },
+    {
+        "name": "HOWTO.STUDY",
+        "utterances": [
+            "How do you study for exams if you haven't done any readings so far",
+            "How do I do the assignment",
+            "How should I study for race power and justice",
+            "How should I review?"
+        ]
+    },
+    {
+        "name": "INFO.ASSIGNMENT",
+        "utterances": [
+            "What is the duration of the final exam?",
+            "Is the final comprehensive",
+            "What is the next group assignment about?",
+            "how many exam 3 questions haven't been graded yet",
+            "Where is the canvas page grade",
+            "List of topics for the upcoming test",
+            "Where is the post survey link",
+            "Do I turn in group exercise 6",
+            "What is exam 3 on topic wise",
+            "Is the final exam cumulative?",
+            "what is test f about"
+        ]
+    },
+    {
+        "name": "SCHEDULE",
+        "utterances": [
+            "What's the next assignment?",
+            "What is my next assignment",
+            "What are my assignments due",
+            "What's my next assignment",
+            "When is the Next mini quiz?",
+            "when is group assignment 6 due",
+            "When is my final exam?",
+            "When is our test",
+            "When is the next midterm",
+            "When is the final",
+            "when is the final exam",
+            "When is the next quiz?",
+            "When are my exams?",
+            "When is the exam",
+            "What time is the group assignment 4 due?",
+            "When is exam one?",
+            "When is the midterm for the course?",
+            "When is our final exam?",
+            "When is the next exam?",
+            "What do I have due next week",
+            "When is my next assignment due",
+            "What do I have due this week",
+            "What do I have to do this week",
+            "What do I have due this week",
+            "what assignments are due this week",
+            "What is due this week",
+            "When is this class complete",
+            "when is the next group assignment",
+            "When is my next test?",
+            "When is the first midterm for this class?",
+            "When do we have our next exam",
+            "Do I have any assignments to do ?",
+            "What's due today",
+            "Quiz today right?",
+            "What are my assignments?",
+            "What's due today",
+            "Just one more test and group assignment correct?",
+            "when is the final"
+        ]
+    },
+    {
+        "name": "SCHEDULE.NEXT.ASSIGNMENT",
+        "utterances": [
+            "When is the next test",
+            "When is the assignment due",
+            "What is due next",
+            "When's my next assignment due",
+            "When is next assignment",
+            "When's the next assignment due ?",
+            "When is my next assignment?",
+            "What is the next due assignment?"
+        ]
+    },
+    {
+        "name": "SMALLTALK",
+        "utterances": [
+            "How are you",
+            "Hi smart pal",
+            "Hello",
+            "Hi",
+            "Thanks",
+            "Ok",
+            "Thank you"
+        ]
+    },
+    {
+        "name": "SUBMISSION",
+        "utterances": [
+            "Did I submit assignment #3?",
+            "Do I have any missing assignments"
+        ]
+    },
+    {
+        "name": "SYLLABUS",
+        "utterances": [
+            "How many credits is this course?",
+            "Who is the teacher",
+            "What does the syllabus say about tests",
+            "What is the name of the course?",
+            "Who teaches the course?",
+            "When is class",
+            "what are the attendance requirements for this course",
+            "When is office hours",
+            "What is the professors name for this course",
+            "When is the office hour",
+            "What time is Song's office hours?",
+            "When are the office hours?",
+            "What is the syllabus for this course?"
+        ]
+    },
+    {
+        "name": "SYSTEM",
+        "utterances": [
+            "What questions can you answer?",
+            "Can you not do that for me",
+            "How much extra credit do I get from this app?",
+            "Working yet?",
+            "What is the smart pal research project?",
+            "What can you do?",
+            "Why is there only one course on this app"
+        ]
+    }
+
+]
