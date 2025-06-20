@@ -1,12 +1,16 @@
 # Import necessary modules from the semantic_router package
 from semantic_router import Route
-from semantic_router.encoders import OpenAIEncoder
+from semantic_router.encoders import OpenAIEncoder, BaseEncoder
 from semantic_router.layer import RouteLayer
 import json
 import dotenv 
+from datetime import datetime
+import logging
 
 # Load environment variables from the .env file
 dotenv.load_dotenv('.env')
+
+logger = logging.getLogger(__name__)
 
 class SemanticModel:
     """
@@ -33,11 +37,10 @@ class SemanticModel:
 
         if train:
             # Load route data from JSON and initialize routes
-            self.routes_data = self.load_routes(file_name=self.router_file_path)
-            self.routes = [Route(**route) for route in self.routes_data]
+            self.routes = self.load_routes(file_name=self.router_file_path)
             
             # Initialize encoder (use OpenAIEncoder if none provided)
-            self.encoder = encoder if encoder else OpenAIEncoder()
+            self.encoder = encoder if encoder else OpenAIEncoder(model="text-embedding-3-small")
             
             # Create a RouteLayer model using the encoder and loaded routes
             self.model = RouteLayer(encoder=self.encoder, routes=self.routes)
@@ -48,13 +51,23 @@ class SemanticModel:
         else:
             self.model = RouteLayer.from_json(self.saved_model)
 
+    def set_encoder(self, encoder: BaseEncoder):
+        """
+        Sets the encoder for the model.
+        """
+        self.encoder = encoder
+
     def save_model(self):
         """
             save the model to json file.
         """
-        self.model.to_json(self.saved_model)
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        model_path = f"data/current_model/model_{timestamp}.json"
+        self.model.to_json(model_path)
+        logger.info(f"Model saved to {model_path}")
 
-    def load_routes(self, file_name: str = None):
+    @staticmethod
+    def load_routes(file_name: str = None):
         """
         Loads route configurations from a specified JSON file.
         
@@ -66,9 +79,12 @@ class SemanticModel:
         """
         with open(file_name, 'r', encoding='utf-8') as file:
             intents = json.load(file)
-        return intents
+        
+        routes = [Route(**route) for route in intents]
+        return routes
     
-    def load_test_data(self, file_name: str = 'classifier/intents.json'):
+    
+    def load_test_data(self, file_name: str = 'data/intents.json'):
         """
         Loads test data from a specified JSON file for model evaluation.
         
@@ -248,7 +264,7 @@ if __name__ == "__main__":
         "What time is my class?",
         "How do I improve that",
         "What is the attendance policy",
-        "When’s next class",
+        "When's next class",
         "After the final, what is my final grade roughly?",
         "What did I get on the last exam",
         "How many exams are there?",
